@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P';
+    color: #14F905;
+    background-color: #000;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 50vw;
+    height: 50vh;
+    border: 1.3px solid #14F905;
+    margin-top: 30px;
+    overflow-y: auto;
+     
+   
+}
+
+
+@media(max-width:800px){
+    .container{
+    gap: 20px;
+    width: 80vw;
+    height: 60vh;
+    border: 1.3px solid #14F905;
+    margin-top: 20px;
+    overflow-y: auto;
+    }
+}
+
+
